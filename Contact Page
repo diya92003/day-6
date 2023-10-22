@@ -1,0 +1,13 @@
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css"
+
+const Contact = () => {
+    return(
+        <>
+        <h2>Contact us: </h2>
+        <h3>Phone No: 987654321</h3>
+        <h3>Email: bleh@gmail.com</h3>
+        </>
+    )
+}
+export default Contact;
