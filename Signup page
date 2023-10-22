@@ -1,0 +1,29 @@
+import React from "react";
+const Signup = () => {
+    return(
+        <>
+        <div className="text-center mt-5 mb-5 bg-primary-subtle " style={{borderWidth: "1px", borderStyle: "solid", borderColor: "black"}}>
+        <h1 className="text-center">Sign up</h1><br />
+        <input type="text" placeholder="Enter first name" />
+        <br />
+        <br />
+        <input type="text" placeholder="Enter last name" />
+        <br />
+        <br />
+        <input type="text" placeholder="Enter your email address" />
+        <br />
+        <br />
+        <input type="number" placeholder="Enter your phone no" />
+        <br />
+        <br />
+        <input type="text" placeholder="Enter password" />
+        <br />
+        <br />
+        <button>Sign up</button>
+        <br />
+        <br />
+        </div>
+        </>
+    )
+}
+export default Signup;
